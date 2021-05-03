@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/stellar/install/hpx/Debug",
+                "/home/stellar/install/hpx/Debug/include"
+            ],
+            "defines": [],
+            "compilerPath": "/home/stellar/git/tiramisu/3rdParty/llvm/build/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}

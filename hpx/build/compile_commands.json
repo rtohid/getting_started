@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/stellar/git/getting_started/hpx/build",
+  "command": "/usr/bin/c++ -DHPX_APPLICATION_EXPORTS -DHPX_APPLICATION_NAME_DEFAULT=tiramisuHPX -DHPX_DEBUG -DHPX_PREFIX_DEFAULT=\\\"/home/stellar/install/hpx/Debug\\\" -isystem /home/stellar/install/hpx/Debug/include -g -std=gnu++14 -o CMakeFiles/tiramisuHPX.dir/main.cpp.o -c /home/stellar/git/getting_started/hpx/main.cpp",
+  "file": "/home/stellar/git/getting_started/hpx/main.cpp"
+}
+]

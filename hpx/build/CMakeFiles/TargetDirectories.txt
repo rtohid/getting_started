@@ -1,0 +1,3 @@
+/home/stellar/git/getting_started/hpx/build/CMakeFiles/rebuild_cache.dir
+/home/stellar/git/getting_started/hpx/build/CMakeFiles/tiramisuHPX.dir
+/home/stellar/git/getting_started/hpx/build/CMakeFiles/edit_cache.dir

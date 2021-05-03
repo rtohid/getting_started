@@ -1,0 +1,189 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "tiramisuHPX"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "HPX_APPLICATION_EXPORTS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "HPX_APPLICATION_NAME_DEFAULT=tiramisuHPX"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "HPX_DEBUG"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "HPX_PREFIX_DEFAULT=\"/home/stellar/install/hpx/Debug\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/stellar/install/hpx/Debug/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "tiramisuHPX::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/stellar/install/hpx/Debug/lib:/usr/local/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/stellar/install/hpx/Debug/lib/libhpx_iostreamsd.so.1.7.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/stellar/install/hpx/Debug/lib/libhpx_initd.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/stellar/install/hpx/Debug/lib/libhpxd.so.1.7.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/stellar/install/hpx/Debug/lib/libhpx_parallelismd.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/stellar/install/hpx/Debug/lib/libhpx_cored.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libtcmalloc_debug.so.4",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libboost_filesystem.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libhwloc.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "tiramisuHPX",
+	"nameOnDisk" : "tiramisuHPX",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
